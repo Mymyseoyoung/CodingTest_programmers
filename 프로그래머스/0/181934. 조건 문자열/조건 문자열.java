@@ -5,17 +5,17 @@ class Solution {
         
         switch(op)
         {
-            case ">=":
-                 return n >= m ? 1 : 0;
-            case "<=":
-                return n<=m?1:0;
+                case">=":
+                    return n>=m?1:0;
+                case"<=":
+                    return n<=m?1:0;
             case ">!":
-                return n>m?1:0;
+                    return (n>m)?1:0;
             case "<!":
-                return n<m?1:0;
+                return (n<m)?1:0;
         }
         
-     
         return 0;
+        
     }
 }
